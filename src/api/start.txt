@@ -1,0 +1,4 @@
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+. .\.venv\Scripts\activate
+cd src/api/
+waitress-serve --listen=0.0.0.0:55555 app:app

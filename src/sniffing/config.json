@@ -1,0 +1,15 @@
+{
+    "db_config": {
+        "user": "root",
+        "password": "root",
+        "host": "localhost",
+        "database": "packet_analysis"
+    },
+    "api_url": "http://127.0.0.1:55555/predict",
+    "batch_size": 10,
+    "tables_to_keep": ["known_ports", "false_positive_frames"],
+    "packet_queue_maxsize": 50,
+    "logging_level": "INFO",
+    "known_ports_path": "./data/ports/known_ports.json",
+    "sql_file_path": "./src/DB/base.sql"
+}

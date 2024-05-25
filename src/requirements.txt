@@ -1,0 +1,16 @@
+flask
+transformers
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118
+tenacity
+scapy
+netifaces
+reportlab
+pandas
+scikit-learn
+datasets
+Flask-Caching
+waitress
+transformers[torch]
+mysql-connector-python
