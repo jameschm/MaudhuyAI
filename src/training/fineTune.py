@@ -13,13 +13,13 @@ print(f"Utilisation du dispositif : {device}")
 
 # Charger les datasets enregistrés à l'étape précédente
 try:
-    train_dataset = load_from_disk('./data/datasets/v2_3/train_dataset')
-    test_dataset = load_from_disk('./data/datasets/v2_3/test_dataset')
+    train_dataset = load_from_disk('./data/datasets/v2_2/train_dataset')
+    test_dataset = load_from_disk('./data/datasets/v2_2/test_dataset')
 except FileNotFoundError:
     raise FileNotFoundError("Les datasets enregistrés n'ont pas été trouvés.")
 
 # Définir le nom du modèle pré-entrainé à utiliser
-model_name = "./src/api/maudhuyAI/v2_2"
+model_name = "google-bert/bert-base-uncased"
 
 # Charger le tokenizer et le modèle
 try:
