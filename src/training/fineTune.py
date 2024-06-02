@@ -5,7 +5,7 @@ import numpy as np
 import torch
 
 # Définissez votre Hugging Face Token comme une variable d'environnement
-os.environ['HUGGINGFACE_TOKEN'] = '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'
+os.environ['HUGGINGFACE_TOKEN'] = #HF API KEY
 
 # Vérifiez si des GPUs sont disponibles
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
